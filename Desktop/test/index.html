@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f396cc8655.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+   <div class="container">
+    <nav>
+        <img src ="image/logo.png" class="logo">
+        
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web devloper</p>
+        <h1>Hi, I'm <span>Yash</span> Raj <br> From Bokaro, Jharkhand </h1>
+    </div>
+   </div> 
+    </div>
+ <!---  ----about------ ---> 
+  <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/background.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hey! Its me Yash<br>
+                    I'm from Bokaro steel city<br>
+                    I have completed my schooling from Guru Gobind Singh Public school.
+                    Currently i am pursuing my bachelor in Computer Science Engineering from ITER, S'O'A University.
+                    My strengths are self-motivated person, a quick learner, easy to adapt to any situation, a Positive thinker, a hard worker.
+                    Talking about my hobbies and interests, I love physical exercise , listen songs & travel.  I also have a knowledge of Java, HTML and CSS.
+                    My short-term goal is to get a good job in a repudiated company and my long-term is to achieve a higher position in organization. <br>
+                    That's all about
+                    </p>
+                    <div class="tab-titles">
+                        <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class ="tab-links" onclick="opentab('Achievement')">Achievement</p>
+                        <p class = "tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li>Html</li>
+                            <li><span>CSS</span></li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "Achievement">
+                        <ul>
+                            <li><span>Achieved</span><br>5-star rating on Hackerrank</li>
+                            <li><span>Achieved certificates from </span><br>1. Nipam(National Ip Awareness Mission)<br>2. TATA(Data Visualization)<br>3. Devtown</li>
+                            </ul>
+                    </div><div class="tab-contents " id ="Education">
+                        <ul>
+                            <li><span>2018</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>80.8%</span><br>Completed 10th from Guru Gobind Singh Public school</li>
+                            <li><span>2020</span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>68.8%</span><br>Completed 12th from Guru Gobind Singh Public school</li>
+                            <li><span>2024</span><br>Btech from ITER University</li>
+                            
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+  </div>  
+  <!-- -----services--- -->
+  <div id = "Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i><br>
+                <h2> Web Developer </h2><br>
+                <p> I am a beginner that is learning <br>web development.</p>
+
+                <a href "#"> Learn More</a>
+
+            </div>
+
+        </div>
+    </div>
+  </div>
+  <!---------portfolio----------------- -->
+  <div id="Work">
+    <div class="conatiner">
+        <h1 class ="sub-title">&emsp;My Work</h1>
+        <div class="work-list">
+            <div class="work1">
+                <img src="image/work-1.png" width="100" height="300">
+                <div class="layer">
+                    <h3>Currency Convertor App</h3><br>
+                    <p>It convert's dollar to Inr </P><br>
+                      <p><a href="https://github.com/Yash2Raj/Currency-Convertor/blob/main/app-debug.apk" ><i class="fa-solid fa-link"></i></a></p>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Unit Convertor App</h3><br>
+                    <p>It convert's Kg to Pounds </P><br>
+                      <p><a href="https://github.com/Yash2Raj/Unit-Converter/blob/main/app-debug.apk" ><i class="fa-solid fa-link"></i></a></p>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title"> Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>rajyashjaiswal8@gmail.com</p> 
+               <p><i class="fa-solid fa-phone"></i>7978519635</p>
+               <div class="social-icons">
+                <a href="https://twitter.com/yashraj89061300"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/yashjaiswal._"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yash-raj12"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Yash2Raj"><i class="fa-brands fa-github"></i></a>
+               </div><br>
+                <a href="image/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+             <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+             </div>   
+            
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Made With <i class="fa-solid fa-heart"></i> by Yash Raj </p>
+
+</div>
+
+  <Script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+    
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+    
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add('active-tab');
+
+    }
+  </Script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx89XGRskPpV4VigW8gNKC4dDfHUHZq9semNiseSkqgAJhKoDCWdiz3DJ_zrV25m04P/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
