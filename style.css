@@ -213,12 +213,12 @@ nav ul li a:hover::after{
     margin-top: 50px;
 
 }
-.work1{
+.work{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
-.work1 img{
+.work img{
     
     width: 100%;
     border-radius: 10px;
@@ -235,11 +235,23 @@ nav ul li a:hover::after{
 .work2 img{
     
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10px;
     display: block;
     transition: tranform 0.5s;
-    margin-left: 110px;
     
+} 
+.work3{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work3 img{
+    
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: tranform 0.5s;
+    max-width: fit-content;
     
 } 
 .layer{
@@ -276,19 +288,25 @@ nav ul li a:hover::after{
     border-radius: 50%;
     text-align: center;
 }
-.work1:hover img{
+.work:hover img{
     transform: scale(1.1);
 }
-.work1:hover .layer{
+.work:hover .layer{
     height: 100%;
 }
-
 .work2:hover img{
     transform: scale(1.1);
 }
 .work2:hover .layer{
     height: 100%;
 }
+.work3:hover img{
+    transform: scale(1.1);
+}
+.work3:hover .layer{
+    height: 100%;
+}
+
 img{
     width: auto;
     height: auto;
